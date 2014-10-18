@@ -3,13 +3,14 @@ div{
 	color:#000000;
 	background-color:#F5ECCE;
 	padding:10px;
-	margin:10px;
+	margin:10px 200px 10px 200px;
+	min-width: 800px;
 }
 .header{
 	background-color:#F79F81;
 	height:55px;
 	margin-top:-10px;
-	position:static;
+	border-bottom:1px solid #000000;
 }
 .footer{
 	background-color:#F79F81;
@@ -40,3 +41,21 @@ a{
 a:hover{
 	color:#FFFFFF;
 }
+#logo{
+	width:60px;
+	height:60px;
+	float:left;
+}
+
+.main{
+	line-height:25px;
+	font-size:18px;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+}
+.photo1{
+	min-width: 800px;
+	height:500px;
+	display:block;
+	margin:auto;	}
